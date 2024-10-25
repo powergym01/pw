@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Power Water</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="./assets/img/Dr  Jaisons BRO (1)-03.png" rel="icon">
+  <link href="./assets/img/Dr  Jaisons BRO (1)-03.png" rel="apple-touch-icon">
+
+  <!--Icon-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Body Perfect
+  * Template URL: https://bodyperfect.ae/free-bootstrap-template-corporate-moderna/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BodyPerfect.ae
+  * License: https://bodyperfect.ae/license/
+  ======================================================== -->
+  <style>
+    .navmenu a{
+      color: #283747;
+    }
+    
+    .ezy__header1 {
+  /* Bootstrap variables */
+  --bs-body-color: #373572;
+  --bs-body-bg: rgb(231, 246, 253);
+
+  /* Easy Frontend variables */
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 13, 110, 253;
+  --ezy-shadow: 0px 4px 44px rgba(159, 190, 218, 0.37);
+
+  background-color: var(--bs-body-bg);
+  overflow: hidden;
+  padding: 60px 0;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .ezy__header1 {
+    padding: 100px 0;
+  }
+}
+
+.ezy__header1-heading {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 25px;
+  color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+  .ezy__header1-heading {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+
+.ezy__header1-sub-heading {
+  color: var(--bs-body-color);
+  font-size: 18px;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.ezy__header1-btn {
+  padding: 12px 30px;
+  color: var(--bs-body-color);
+  box-shadow: var(--ezy-shadow);
+}
+.ezy__about6 {
+  /* Bootstrap variables */
+  --bs-body-color: #1e2329;
+  --bs-body-bg: rgb(255, 255, 255);
+
+  /* Easy Frontend variables */
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 13, 110, 253;
+
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  overflow: hidden;
+  padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+  .ezy__about6 {
+    padding: 100px 0 10px 0;
+  }
+}
+
+/* Gray Block Style */
+.gray .ezy__about6,
+.ezy__about6.gray {
+  /* Bootstrap variables */
+  --bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__about6,
+.ezy__about6.dark-gray {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(30, 39, 53);
+}
+
+/* Dark Block Style */
+.dark .ezy__about6,
+.ezy__about6.dark {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(11, 23, 39);
+}
+
+.ezy__about6-heading {
+  font-size: 35px;
+  line-height: 45px;
+}
+@media (min-width: 768px) {
+  .ezy__about6-heading {
+    font-size: 42px;
+    line-height: 50px;
+  }
+}
+.ezy__about6-sub-heading {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.ezy__about6-banner {
+  min-height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.ezy__about6-content p {
+  font-size: 16px;
+  line-height: 1.7;
+  opacity: 0.7;
+}
+
+.ezy__about6 img {
+  border-radius: 15px;
+}
+/* General mobile dropdown styling */
+@media (max-width: 992px) {
+  .navmenu {
+    position: relative; /* Ensures the dropdown doesn't overflow */
+    z-index: 9999; /* Elevates the menu */
+  }
+
+  /* Ensure the dropdown arrow is on the right side */
+  .navmenu .dropdown > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+  }
+
+  .navmenu .dropdown > a i {
+    margin-left: auto;
+  }
+
+  /* Make sure dropdown is visible and properly positioned */
+  .navmenu .dropdown-menu {
+    display: none; /* Initially hidden */
+    position: relative; /* Ensure the dropdown stays within its container */
+    z-index: 9999;
+    background-color: #fff;
+    padding-left: 15px;
+  }
+
+  /* Show dropdown on click */
+  .navmenu .dropdown.show .dropdown-menu {
+    display: block; /* Show when active */
+  }
+
+  /* Additional dropdown items should not overflow */
+  .navmenu .dropdown .dropdown-menu a {
+    padding-left: 15px;
+  }
+
+  /* Rotate the arrow icon when dropdown is opened */
+  .dropdown.show > a i.toggle-dropdown {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  /* To make sure the menu doesn't jump below other sections */
+  .header {
+    position: relative;
+    z-index: 1000; /* Slightly lower than the dropdown */
+  }
+}
+.mobile-nav-toggle {
+  color: black;
+}
+.ezy__portfolio10 {
+  /* Bootstrap variables */
+  --bs-body-color: #373572;
+  --bs-body-bg: rgb(255, 255, 255);
+
+  /* Easy Frontend variables */
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 13, 110, 253;
+  --ezy-item-bg: #ffffff;
+  --ezy-item-shadow: 0px 4px 44px rgba(159, 190, 218, 0.37);
+
+  background-color: var(--bs-body-bg);
+  overflow: hidden;
+  padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+  .ezy__portfolio10 {
+    padding: 0 0 50px 0;
+  }
+}
+
+/* Gray Block Style */
+.gray .ezy__portfolio10,
+.ezy__portfolio10.gray {
+  /* Bootstrap variables */
+  --bs-body-bg: rgb(246, 246, 246);
+
+  /* Easy Frontend variables */
+  --ezy-item-bg: #f6f6f6;
+  --ezy-item-shadow: 0px 4px 44px rgba(186, 155, 155, 0.17);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__portfolio10,
+.ezy__portfolio10.dark-gray {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(30, 39, 53);
+
+  /* Easy Frontend variables */
+  --ezy-item-bg: #222f3e;
+  --ezy-item-shadow: none;
+}
+
+/* Dark Block Style */
+.dark .ezy__portfolio10,
+.ezy__portfolio10.dark {
+  /* Bootstrap variables */
+  --bs-body-color: #ffffff;
+  --bs-body-bg: rgb(11, 23, 39);
+
+  /* Easy Frontend variables */
+  --ezy-item-bg: #162231;
+  --ezy-item-shadow: none;
+}
+
+.ezy__portfolio10-heading {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 25px;
+  color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+  .ezy__portfolio10-heading {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+.ezy__portfolio10-sub-heading {
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--bs-body-color);
+}
+
+.ezy__portfolio10-bg-holder {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  min-height: 200px;
+}
+
+.ezy__portfolio10-item {
+  box-shadow: var(--ezy-item-shadow);
+  background-color: var(--ezy-item-bg);
+  border-radius: 12px;
+  overflow: hidden;
+  border: none;
+}
+
+.ezy__portfolio10-item * {
+  color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+  .ezy__portfolio10-item {
+    height: 100%;
+  }
+}
+.heading-exp{
+  font-size:42px;
+}
+@media only screen and (max-width: 768px) {
+    .heading-exp {
+        font-size: 36px; /* Smaller font size for mobile */
+        line-height:1; /* Increase line height to add spacing */
+    }
+}
+</style>
+</head>
+
+<body class="about-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="./assets/img/logo.png" alt="Logo">
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown">
+            <a href="#">
+              <span>Product</span>
+              <i class="bi bi-chevron-down toggle-dropdown"></i>
+            </a>
+            <ul>
+              <li><a href="./hydrogenwater.html">Hydrogen Water</a></li>
+              <li><a href="./hydrogenbath.html">Hydrogen Bath</a></li>
+              <li><a href="./hydrogenbreath.html">Hydrogen Breath</a></li>
+            </ul>
+          </li>
+          <li><a href="portfolio.html">Service</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+  
+  <section class="ezy__header1 light" style="padding-bottom:0px;">
+    <svg class="position-absolute start-0 top-0 bottom-0" width="602" height="742" viewBox="0 0 602 742" fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M529.67 368.784C488.233 175.629 530.084 75.9263 602 0H0V742C7.22773 740.175 75.4574 695.495 242.852 656.948C584.139 584.605 555.256 488.05 529.67 368.784Z"
+        fill="url(#paint0_linear_4_4301)" fill-opacity="0.6" />
+      <defs>
+        <linearGradient id="paint0_linear_4_4301" x1="310.118" y1="576.967" x2="770.228" y2="95.337"
+          gradientUnits="userSpaceOnUse">
+          <stop stop-color="#E7F6FD" />
+          <stop offset="1" stop-color="#DBEEF8" />
+        </linearGradient>
+      </defs>
+    </svg>
+    <div class="container position-relative">
+      <div class="row align-items-center">
+        <div class="col-lg-6 pe-xl-5 text-center text-lg-start">
+          <h2 class="heading-exp ezy__header1-heading mb-4">Experience the Power of Hydrogen Breathing</h2>
+          <p class="ezy__header1-sub-heading">
+            Boost your health with hydrogen breathing, a natural way to reduce stress and enhance vitality. Feel refreshed as your body’s healing is supported
+          </p>
+          <a href="" class="btn btn-light ezy__header1-btn mt-4">Try Now</a>
+        </div>
+        <div class="col-lg-6 mt-5 mt-lg-0">
+          <img src="./assets/img/g3.png" alt="" class="rounded img-fluid mt-3" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="featured-services" class="featured-services section">
+
+    <div class="container">
+
+      <div class="row gy-4">
+
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-item item-cyan position-relative">
+            <div class="icon">
+              <i class="bi bi-activity"></i>
+            </div>
+            <a href="service-details.html" class="stretched-link">
+              <h3>Increased Energy</h3>
+            </a>
+            <p>Hydrogen water boosts energy at the cellular level, providing a natural, lasting lift throughout the day</p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-item item-orange position-relative">
+            <div class="icon">
+              <i class="fa-solid fa-lungs"></i>
+            </div>
+            <a href="service-details.html" class="stretched-link">
+              <h3>Faster Recovery</h3>
+            </a>
+            <p>Reduce muscle fatigue and speed up recovery after workouts with hydrogen’s antioxidant properties</p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-item item-teal position-relative">
+            <div class="icon">
+              <i class="fa-solid fa-droplet"></i> 
+            </div>
+            <a href="service-details.html" class="stretched-link">
+              <h3>Cellular Health</h3>
+            </a>
+            <p>Support your body at the cellular level, promoting healthy tissue and organ function through better hydration</p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-item item-red position-relative">
+            <div class="icon">
+              <i class="bi bi-bounding-box-circles"></i>
+            </div>
+            <a href="service-details.html" class="stretched-link">
+              <h3>Antioxidant Power</h3>
+            </a>
+            <p>Packed with antioxidants, hydrogen water fights free radicals, reducing oxidative stress and inflammation</p>
+            <a href="service-details.html" class="stretched-link"></a>
+          </div>
+        </div><!-- End Service Item -->
+      </div>
+    </div>
+  </section>
+
+
+  <section class="ezy__about6 light" id="ezy__about6">
+    <div class="container">
+      <div class="row justify-content-center text-center mb-5">
+        <div class="col-12 col-md-8">
+          <h2 class="ezy__about6-heading fw-bold mb-4">Hydrogen Water – A Natural Boost for Your Body and Mind</h2>
+          <p class="ezy__about6-sub-heading">
+            Discover the power of hydrogen water, enhancing physical performance and mental clarity with advanced hydration and antioxidant benefits—perfect for your daily wellness routine.
+          </p>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-center mt-5">
+        <div class="col-12 col-md-5 order-2">
+          <div class="d-flex flex-column justify-content-center ezy__about6-content pe-md-5">
+            <h4 class="fw-bold mb-3">Powerful Antioxidant Effects</h4>
+            <p class="mb-0">
+              Hydrogen breathing helps neutralize harmful free radicals in the body, reducing oxidative stress. This can support overall health by lowering inflammation and protecting cells from damage, potentially slowing aging and reducing the risk of chronic diseases.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 order-1 order-md-2 mb-4 mb-md-0">
+          <div>
+            <img src="./assets/img/ant.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-center mt-5">
+        <div class="col-12 col-md-5 order-2">
+          <div class="d-flex flex-column justify-content-center ezy__about6-content ps-md-5">
+            <h4 class="fw-bold mb-3">Enhanced Energy and Recovery</h4>
+            <p class="mb-0">
+              Hydrogen gas can boost energy levels and improve recovery by increasing cellular efficiency. It aids in reducing muscle fatigue, promoting faster recovery after exercise, and helping the body perform at its best.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 order-1 mb-4 mb-md-0">
+          <div>
+            <img src="./assets/img/re.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ezy__portfolio10 light">
+    <div class="container">
+      <!-- <div class="row justify-content-center">
+        <div class="col-lg-7 text-center">
+          <h2 class="ezy__portfolio10-heading mb-4">My Latest Works</h2>
+          <p class="ezy__portfolio10-sub-heading mb-2">
+            It’s easier to reach your savings goals when you have the right savings account. It’s easier to reach your
+            savings goals when you have the right savings account.
+          </p>
+        </div>
+      </div> -->
+      <div class="justify-content-center mt-4 row">
+        <div class="mt-4 col-lg-8 col-12">
+          <div class="card ezy__portfolio10-item">
+            <div class="card-body p-0">
+              <div class="row h-100 align-items-center">
+                <div class="h-100 col-md-6 col-12">
+                  <div
+                    class="ezy__portfolio10-bg-holder"
+                    style="background-image: url(./assets/img/cog.png)"
+                  ></div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <div class="p-2 p-sm-2">
+                    <h3 class="fw-black text-capitalize mb-2 fs-5 text-900">Improved Cognitive Function</h3>
+                    <p>Hydrogen inhalation enhances brain function by reducing oxidative stress, improving mental clarity, focus, and cognitive performance</p>
+                    <ul class="nav flex-column">
+                      <li class="d-flex align-items-center mb-1 text-1000">
+                        <span class="fas fa-check me-2 text-primary"></span> Enhanced Mental Clarity
+                      </li>
+                      <li class="d-flex align-items-center fs--0 text-1000">
+                        <span class="fas fa-check me-2 text-primary"></span> Better Memory Retention
+                      </li>
+                      <li class="d-flex align-items-center fs--0 text-1000">
+                        <span class="fas fa-check me-2 text-primary"></span> Increased Focus and Concentration
+                      </li>
+                      <li class="d-flex align-items-center fs--0 text-1000">
+                        <span class="fas fa-check me-2 text-primary"></span> Reduced Mental Fatigue
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-4 col-lg-4 col-12">
+          <div class="card ezy__portfolio10-item bg-info">
+            <div class="card-body p-3 p-sm-4">
+              <div class="mb-3 fs-2">
+                <span class="fas fa-plus-square text-white"></span>
+              </div>
+              <h3 class="fw-black text-capitalize mb-3 fs-5 text-white">Anti-Inflammatory Properties</h3>
+              <p class="text-white">
+                Hydrogen acts as a natural anti-inflammatory agent, helping to alleviate chronic inflammation associated with various health conditions such as arthritis, heart disease, and autoimmune disorders.
+              </p>
+              <a class="btn btn-link text-white p-0 d-flex align-items-center text-decoration-none" href="#"
+                >Learn More <span class="fas fa-arrow-right text-white ms-2"></span
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="mt-4 col-lg-4 col-12">
+          <div class="card ezy__portfolio10-item bg-primary">
+            <div class="card-body p-3 p-sm-4">
+              <div class="mb-3 fs-2">
+                <span class="fas fa-plus-square text-white"></span>
+              </div>
+              <h3 class="fw-black text-capitalize mb-3 fs-5 text-white">Enhanced Respiratory Health</h3>
+              <p class="text-white">
+                Hydrogen breathing improves lung function and helps reduce symptoms of asthma or COPD by lowering airway inflammation and promoting healing
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="mt-4 col-lg-8 col-12">
+          <div class="card ezy__portfolio10-item">
+            <div class="card-body p-0">
+              <div class="row h-100 align-items-center">
+                <div class="h-100 col-md-6 col-12">
+                  <div
+                    class="ezy__portfolio10-bg-holder"
+                    style="background-image: url(./assets/img/sk.png)"
+                  ></div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <div class="p-3 p-sm-4">
+                    <div class="mb-3 text-primary fs-2">
+                      <span class="fas fa-adjust"></span>
+                    </div>
+                    <h3 class="fw-black text-capitalize mb-3 fs-5 text-900">Support for Skin Health</h3>
+                    <p>Hydrogen breathing may protect the skin from aging and damage caused by UV rays and pollution, resulting in a clearer, more youthful complexion.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form id="contact-form" method="post" action="https://script.google.com/macros/s/AKfycbzuHoxibc6qSfSzJQi-fqi2bnRFR_bAkARH2sY-wnCgK7AqSxEdtbQ9eskdN37uL1YMUw/exec" name="contact-form">
+              <div class="newsletter-form">
+                <input type="email" name="email" id="email" required placeholder="Enter your email">
+                <input type="submit" value="Subscribe">
+              </div>
+              <div class="loading" style="display:none;">Loading...</div>
+              <div class="error-message" style="display:none; color: red;"></div>
+              <div class="sent-message" style="display:none; color: green;">Your subscription request has been sent. Thank you!</div>
+            </form>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <div>
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="./assets/img/logo.png" alt="Logo" style="max-width: 30%; height: auto; background-color: white;padding: 8px; border-radius: 7px;">
+            </a>
+          </div>
+          <div class="footer-contact pt-3">
+            <h5>Our Branches</h5>
+            <ul>
+              <li>
+                <div>
+                  <p>101 - AL KIFAF COMMERCIAL BUILDING, NEAR</p>
+                  <p>BURJUMAN METRO EXIT 2, AL KARAMA, DUBAI - UAE</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <p>JAM MARINA RESIDENCE SHOP B-01 - 04 MARINA</p>
+                </div>
+              </li>
+            </ul>
+            <p class="mt-3"><strong>Phone:</strong> <span>+971 56 369 9393</span></p>
+            <p><strong>Email:</strong> <span>business@bodyperfect.ae</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">weight-loss</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">STEM CELLS</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">ABB DIET PROGRAM</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">DNA</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Follow us on social media to stay updated with the latest tips, offers, and news!</p>
+          <div class="social-links d-flex">
+            <a href="https://www.youtube.com/@drjaisons"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/jaison.paulson/"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/drjaisons/"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Body Perfect</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bodyperfect.ae/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bodyperfect.ae/">Drjaisons</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+  var dropdowns = document.querySelectorAll('.dropdown-toggle');
+  
+  dropdowns.forEach(function (dropdown) {
+    dropdown.addEventListener('click', function () {
+      var dropdownMenu = this.nextElementSibling;
+
+      // Toggle dropdown visibility
+      dropdownMenu.classList.toggle('show');
+    });
+  });
+});
+document.getElementById('contact-form').addEventListener('submit', async function (e) {
+    e.preventDefault(); // Prevent default form submission
+
+    const form = e.target;
+    const formData = new FormData(form);
+    const loadingMessage = document.querySelector('.loading');
+    const successMessage = document.querySelector('.sent-message');
+    const errorMessage = document.querySelector('.error-message');
+
+    // Show the loading message
+    loadingMessage.style.display = 'block';
+    successMessage.style.display = 'none';
+    errorMessage.style.display = 'none';
+
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        redirect: 'follow'
+      });
+
+      if (response.ok) {
+        loadingMessage.style.display = 'none';
+        successMessage.style.display = 'block'; // Show success message
+      } else {
+        throw new Error('Form submission failed.');
+      }
+    } catch (error) {
+      loadingMessage.style.display = 'none';
+      errorMessage.style.display = 'block'; // Show error message
+      errorMessage.textContent = 'There was an issue with your submission. Please try again.';
+    }
+  });
+  </script>
+
+</body>
+
+</html>

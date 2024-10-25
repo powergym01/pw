@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Power Water</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="./assets/img/Dr  Jaisons BRO (1)-03.png" rel="icon">
+  <link href="./assets/img/Dr  Jaisons BRO (1)-03.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Body Perfect
+  * Template URL: https://bodyperfect.ae/free-bootstrap-template-corporate-moderna/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BodyPerfect.ae
+  * License: https://bodyperfect.ae/license/
+  ======================================================== -->
+  <style>
+    .navmenu a{
+      color: #283747;
+    }
+/* General mobile dropdown styling */
+@media (max-width: 992px) {
+  .navmenu {
+    position: relative; /* Ensures the dropdown doesn't overflow */
+    z-index: 9999; /* Elevates the menu */
+  }
+
+  /* Ensure the dropdown arrow is on the right side */
+  .navmenu .dropdown > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+  }
+
+  .navmenu .dropdown > a i {
+    margin-left: auto;
+  }
+
+  /* Make sure dropdown is visible and properly positioned */
+  .navmenu .dropdown-menu {
+    display: none; /* Initially hidden */
+    position: relative; /* Ensure the dropdown stays within its container */
+    z-index: 9999;
+    background-color: #fff;
+    padding-left: 15px;
+  }
+
+  /* Show dropdown on click */
+  .navmenu .dropdown.show .dropdown-menu {
+    display: block; /* Show when active */
+  }
+
+  /* Additional dropdown items should not overflow */
+  .navmenu .dropdown .dropdown-menu a {
+    padding-left: 15px;
+  }
+
+  /* Rotate the arrow icon when dropdown is opened */
+  .dropdown.show > a i.toggle-dropdown {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  /* To make sure the menu doesn't jump below other sections */
+  .header {
+    position: relative;
+    z-index: 1000; /* Slightly lower than the dropdown */
+  }
+}
+.mobile-nav-toggle {
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background-size: contain; /* Make sure the image still covers the section */
+    background-position: top center; /* Center the image for small screens */
+  }
+}
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="./assets/img/logo.png" alt="Logo">
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown">
+            <a href="#">
+              <span>Product</span>
+              <i class="bi bi-chevron-down toggle-dropdown"></i>
+            </a>
+            <ul>
+              <li><a href="./hydrogenwater.html">Hydrogen Water</a></li>
+              <li><a href="./hydrogenbath.html">Hydrogen Bath</a></li>
+              <li><a href="./hydrogenbreath.html">Hydrogen Breath</a></li>
+            </ul>
+          </li>
+          <li><a href="portfolio.html">Service</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <!-- <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in"> -->
+
+      <div id="hero-carousel" class="carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <div class="container position-relative">
+
+          <div class="carousel-item active">
+            <div class="carousel-container">
+              <h2>Premium Hydrogen Water Bottle</h2>
+              <p>The Premium Hydrogen Water Bottle infuses water with hydrogen for enhanced hydration and improved overall wellness.</p>
+              <a href="#about" class="btn-get-started">Read More</a>
+            </div>
+          </div><!-- End Carousel Item -->
+
+          <div class="carousel-item">
+            <div class="carousel-container">
+              <h2>Hydrogen Breathing </h2>
+              <p>Hydrogen breathing therapy delivers molecular hydrogen directly into the lungs, promoting antioxidant effects and supporting cellular health</p>
+              <a href="#about" class="btn-get-started">Read More</a>
+            </div>
+          </div><!-- End Carousel Item -->
+
+          <div class="carousel-item">
+            <div class="carousel-container">
+              <h2>hydrogen Bathing</h2>
+              <p>Hydrogen bathing involves soaking in hydrogen-rich water to promote skin rejuvenation, reduce inflammation, and enhance relaxation through its antioxidant properties.</p>
+              <a href="#about" class="btn-get-started">Read More</a>
+            </div>
+          </div><!-- End Carousel Item -->
+
+          <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+          </a>
+
+          <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+          </a>
+
+          <!-- <ol class="carousel-indicators"></ol> -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Featured Services Section -->
+    <section id="featured-services" class="featured-services section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-droplet"></i> 
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Hydrogen Water</h3>
+              </a>
+              <p>hydrogen water is its powerful antioxidant properties, which help neutralize harmful free radicals and reduce oxidative stress in the body.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item item-orange position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-lungs"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Hydrogen Breath</h3>
+              </a>
+              <p>Hydrogen Breathing is its ability to reduce inflammation and oxidative stress, potentially aiding in faster recovery and improved cellular health.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item item-teal position-relative">
+              <div class="icon">
+                <i class="bi bi-activity"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Hydrogen Bathing</h3>
+              </a>
+              <p>Hydrogen bathing supports skin rejuvenation by minimizing inflammation and oxidative stress, resulting in a healthier, more vibrant complexion</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item item-red position-relative">
+              <div class="icon">
+                <i class="bi bi-bounding-box-circles"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Hydrogen</h3>
+              </a>
+              <p>humans intake hydrogen, whether through drinking hydrogen-rich water, breathing hydrogen gas, or hydrogen baths, it acts as a potent antioxidant.</p>
+              <a href="service-details.html" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+        </div>
+      </div>
+    </section><!-- /Featured Services Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section light-background">
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+            <img src="./assets/img/about.jpg" class="img-fluid" alt="" style="border-radius: 10px;">
+            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+          </div>
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+            <h3>Unlocking the Benefits of Hydrogen Water for Enhanced Health and Wellness</h3>
+            <p class="fst-italic">
+              Hydrogen water enhances your health by infusing water with molecular hydrogen, boosting its antioxidant properties to reduce oxidative stress and support overall well-being
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-all"></i> <span>Hydrogen water offers antioxidants that neutralize free radicals and reduce oxidative stress.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Regular hydrogen water use supports overall health and boosts well-being by enhancing cellular health.</span></li>
+            </ul>
+            <p>
+              Hydrogen water offers significant benefits, including enhanced antioxidant support and improved cellular health. Regular use can help maintain overall wellness and reduce oxidative stress.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Features</h2>
+        <p>Hydrogen water offers powerful antioxidants, improved hydration, anti-inflammatory effects, enhanced cellular health, and overall boosted well-being</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <img src="./assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+            <h6>The Role of Antioxidants in Preventing Cellular Damage</h6>
+            <!-- <p class="fst-italic">
+            </p> -->
+            <ul>
+              <li><i class="bi bi-check"></i><span> Explore how antioxidants, particularly molecular hydrogen, play a critical role in neutralizing free radicals and reducing oxidative stress</span></li>
+            </ul>
+            <h6>How Hydrogen Water Enhances Cellular Hydration</h6>
+            <!-- <p class="fst-italic">
+            </p> -->
+            <ul>
+              <li><i class="bi bi-check"></i><span> Discuss the unique properties of hydrogen water that facilitate better hydration and its effects on cellular function and overall health.</span></li>
+            </ul>
+            <h6>Hydrogen Water on Inflammation and Immune Function</h6>
+            <!-- <p class="fst-italic">
+            </p> -->
+            <ul>
+              <li><i class="bi bi-check"></i><span>Examine how hydrogen water can influence inflammation levels and support immune system function.</span></li>
+            </ul>
+            <h6>Boosting Cellular Energy and Protection with Hydrogen Water</h6>
+            <!-- <p class="fst-italic">
+            </p> -->
+            <ul>
+              <li><i class="bi bi-check"></i><span>Analyze how hydrogen water supports cellular health by enhancing energy production and protecting against cellular damage.</span></li>
+            </ul>
+            
+          </div>
+          
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="./assets/img/breath.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
+            <h3>Here are the key features of hydrogen breathing</h3>
+            <h6>Effective Antioxidant Delivery</h6>
+            <ul>
+              <li><i class="bi bi-check"></i><span>Hydrogen breathing provides direct access to molecular hydrogen, which acts as a potent antioxidant to combat oxidative stress at the cellular level</span></li>
+            </ul>
+            <h6>Enhanced Respiratory Health</h6>
+            <ul>
+              <li><i class="bi bi-check"></i><span>Inhaling hydrogen can support lung function and respiratory health by reducing inflammation and improving oxygen utilization.</span></li>
+            </ul>
+            <h6>Reduced Inflammation</h6>
+            <ul>
+              <li><i class="bi bi-check"></i><span>Regular hydrogen breathing helps mitigate inflammation in the body, potentially aiding in recovery and overall health</span></li>
+            </ul>
+            <h6>Support for Cellular Health</h6>
+            <ul>
+              <li><i class="bi bi-check"></i><span>Hydrogen breathing supports cellular health by reducing oxidative damage and promoting optimal cellular function.</span></li>
+            </ul>
+          </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
+            <img src="./assets/img/Machine.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7" data-aos="fade-up">
+            <h3>
+              The Comprehensive Benefits of Hydrogen Bathing</h3>
+              <h6>Skin Revitalization</h6>
+              <ul>
+                <li><i class="bi bi-check"></i><span>Hydrogen baths reduce oxidative stress, helping to rejuvenate and revitalize the skin, promoting a more youthful appearance.</span></li>
+              </ul>
+              <h6>Anti-Inflammatory Effects</h6>
+              <ul>
+                <li><i class="bi bi-check"></i><span>Bathing in hydrogen-rich water can soothe inflammation and relieve skin conditions like eczema or psoriasis</span></li>
+              </ul>
+              <h6>Improved Hydration</h6>
+              <ul>
+                <li><i class="bi bi-check"></i><span>Hydrogen water helps improve skin hydration, leaving it softer and more supple.</span></li>
+              </ul>
+              <h6>Detoxification Support</h6>
+              <ul>
+                <li><i class="bi bi-check"></i><span>A hydrogen bath assists the body in flushing out toxins and impurities through the skin</span></li>
+              </ul>
+          </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
+            <img src="./assets/img/hwater.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
+            <h3>How to Produce Hydrogen Water</h3>
+            <p class="fst-italic">
+              The program may include instructions on how to create hydrogen-rich water using specialized hydrogen water bottles, tablets, or machines that infuse molecular hydrogen into regular drinking water
+            </p>
+            <h3>
+              Integration Into Daily Life</h3>
+            <p>
+              Tips and strategies for incorporating hydrogen water into a healthy lifestyle, including using it for hydration during exercise, skincare routines, or as a daily wellness habit.
+            </p>
+            <h3>Hydrogen Water Consumption</h3>
+            <p>Participants are educated on how much and how often to drink hydrogen water to maximize its health benefits, such as improving hydration, enhancing energy levels, and promoting detoxification</p>
+          </div>
+        </div><!-- Features Item -->
+      </div>
+    </section><!-- /Features Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form id="contact-form" method="post" action="https://script.google.com/macros/s/AKfycbzuHoxibc6qSfSzJQi-fqi2bnRFR_bAkARH2sY-wnCgK7AqSxEdtbQ9eskdN37uL1YMUw/exec" name="contact-form">
+              <div class="newsletter-form">
+                <input type="email" name="email" id="email" required placeholder="Enter your email">
+                <input type="submit" value="Subscribe">
+              </div>
+              <div class="loading" style="display:none;">Loading...</div>
+              <div class="error-message" style="display:none; color: red;"></div>
+              <div class="sent-message" style="display:none; color: green;">Your subscription request has been sent. Thank you!</div>
+            </form>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <div>
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="./assets/img/logo.png" alt="Logo" style="max-width: 30%; height: auto; background-color: white;padding: 8px; border-radius: 7px;">
+            </a>
+          </div>
+          <div class="footer-contact pt-3">
+            <h5>Our Branches</h5>
+            <ul>
+              <li>
+                <div>
+                  <p>101 - AL KIFAF COMMERCIAL BUILDING, NEAR</p>
+                  <p>BURJUMAN METRO EXIT 2, AL KARAMA, DUBAI - UAE</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <p>JAM MARINA RESIDENCE SHOP B-01 - 04 MARINA</p>
+                </div>
+              </li>
+            </ul>
+            <p class="mt-3"><strong>Phone:</strong> <span>+971 56 369 9393</span></p>
+            <p><strong>Email:</strong> <span>business@bodyperfect.ae</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">weight-loss</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">STEM CELLS</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">ABB DIET PROGRAM</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">DNA</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Follow us on social media to stay updated with the latest tips, offers, and news!</p>
+          <div class="social-links d-flex">
+            <a href="https://www.youtube.com/@drjaisons"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/jaison.paulson/"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/drjaisons/"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Body Perfect</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bodyperfect.ae/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bodyperfect.ae/">Drjaisons</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+  var dropdowns = document.querySelectorAll('.dropdown-toggle');
+  
+  dropdowns.forEach(function (dropdown) {
+    dropdown.addEventListener('click', function () {
+      var dropdownMenu = this.nextElementSibling;
+
+      // Toggle dropdown visibility
+      dropdownMenu.classList.toggle('show');
+    });
+  });
+});
+document.getElementById('contact-form').addEventListener('submit', async function (e) {
+    e.preventDefault(); // Prevent default form submission
+
+    const form = e.target;
+    const formData = new FormData(form);
+    const loadingMessage = document.querySelector('.loading');
+    const successMessage = document.querySelector('.sent-message');
+    const errorMessage = document.querySelector('.error-message');
+
+    // Show the loading message
+    loadingMessage.style.display = 'block';
+    successMessage.style.display = 'none';
+    errorMessage.style.display = 'none';
+
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        redirect: 'follow'
+      });
+
+      if (response.ok) {
+        loadingMessage.style.display = 'none';
+        successMessage.style.display = 'block'; // Show success message
+      } else {
+        throw new Error('Form submission failed.');
+      }
+    } catch (error) {
+      loadingMessage.style.display = 'none';
+      errorMessage.style.display = 'block'; // Show error message
+      errorMessage.textContent = 'There was an issue with your submission. Please try again.';
+    }
+  });
+  </script>
+
+</body>
+
+</html>

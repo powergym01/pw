@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio - Body Perfect Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="./assets/img/Dr  Jaisons BRO (1)-03.png" rel="icon">
+  <link href="./assets/img/Dr  Jaisons BRO (1)-03.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Body Perfect
+  * Template URL: https://bodyperfect.ae/free-bootstrap-template-corporate-moderna/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BodyPerfect.ae
+  * License: https://bodyperfect.ae/license/
+  ======================================================== -->
+  <style>
+    .navmenu a{
+      color: #283747;
+    }
+    /* From Uiverse.io by CristianMontoya98 */ 
+.btn {
+ width: 6.5em;
+ height: 2.3em;
+ margin: 0.5em;
+ background: black;
+ color: white;
+ border: none;
+ border-radius: 0.625em;
+ font-size: 15px;
+ font-weight:500;
+ cursor: pointer;
+ position: relative;
+ z-index: 1;
+ overflow: hidden;
+}
+
+button:hover {
+ color: black;
+}
+
+button:after {
+ content: "";
+ background: rgba(47, 72, 112, 0.683);
+ position: absolute;
+ z-index: -1;
+ left: -20%;
+ right: -20%;
+ top: 0;
+ bottom: 0;
+ transform: skewX(-45deg) scale(0, 1);
+ transition: all 0.5s;
+}
+
+button:hover:after {
+ transform: skewX(-45deg) scale(1, 1);
+ -webkit-transition: all 0.5s;
+ transition: all 0.5s;
+}
+/* General mobile dropdown styling */
+@media (max-width: 992px) {
+  .navmenu {
+    position: relative; /* Ensures the dropdown doesn't overflow */
+    z-index: 9999; /* Elevates the menu */
+  }
+
+  /* Ensure the dropdown arrow is on the right side */
+  .navmenu .dropdown > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+  }
+
+  .navmenu .dropdown > a i {
+    margin-left: auto;
+  }
+
+  /* Make sure dropdown is visible and properly positioned */
+  .navmenu .dropdown-menu {
+    display: none; /* Initially hidden */
+    position: relative; /* Ensure the dropdown stays within its container */
+    z-index: 9999;
+    background-color: #fff;
+    padding-left: 15px;
+  }
+
+  /* Show dropdown on click */
+  .navmenu .dropdown.show .dropdown-menu {
+    display: block; /* Show when active */
+  }
+
+  /* Additional dropdown items should not overflow */
+  .navmenu .dropdown .dropdown-menu a {
+    padding-left: 15px;
+  }
+
+  /* Rotate the arrow icon when dropdown is opened */
+  .dropdown.show > a i.toggle-dropdown {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  /* To make sure the menu doesn't jump below other sections */
+  .header {
+    position: relative;
+    z-index: 1000; /* Slightly lower than the dropdown */
+  }
+}
+.mobile-nav-toggle {
+  color: black;
+}
+
+  </style>
+</head>
+
+<body class="portfolio-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top" style="position: sticky;">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="./assets/img/logo.png" alt="Logo">
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown">
+            <a href="#">
+              <span>Product</span>
+              <i class="bi bi-chevron-down toggle-dropdown"></i>
+            </a>
+            <ul>
+              <li><a href="./hydrogenwater.html">Hydrogen Water</a></li>
+              <li><a href="./hydrogenbath.html">Hydrogen Bath</a></li>
+              <li><a href="./hydrogenbreath.html">Hydrogen Breath</a></li>
+            </ul>
+          </li>
+          <li><a href="portfolio.html">Service</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+  
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" style="padding-top: 25px;">
+      <div class="container position-relative">
+        <h1>Service</h1>
+        <p>Dr. Jaison Paulson is well known as a "HEALER". Reversing Lifestyle disease like diabetes cholesterol hypertension thyroid pCOD is his forte he is experienced in prenatal and postnatal exercise nutrition wellness and weight loss this is our all treatments</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Service</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Weight Loss & Beauty</li>
+            <li data-filter=".filter-product">Ayurveda</li>
+            <li data-filter=".filter-branding">GYM</li>
+            <li data-filter=".filter-books">DNA</li>
+            <li data-filter=".filter-Diet">ABB Diet</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="./assets/img/s1.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <p>Lorem ipsum, dolor sit amet consectetur <button class="btn"> More
+                  </button></p>
+                  
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="./assets/img/s3.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <p>Lorem ipsum, dolor sit amet consectetur <button class="btn"> More
+                  </button></p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="./assets/img/s6.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <p>Lorem ipsum, dolor sit amet consectetur <button class="btn"> More
+                  </button></p>
+                 
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="./assets/img/s10.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <p>Lorem ipsum, dolor sit amet consectetur <button class="btn"> More
+                  </button></p>
+                 
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="./assets/img/s2.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <p>Lorem ipsum, dolor sit amet consectetur <button class="btn"> More
+                  </button></p>
+                  
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="./assets/img/s4.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <<p>Lorem ipsum, dolor sit amet consectetur <button class="btn"> More
+                  </button></p>
+                  
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="./assets/img/s7.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <p>Lorem ipsum, dolor sit amet consectetur <button class="btn"> More
+                  </button></p>
+                  
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="./assets/img/s12.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <p>Lorem ipsum, dolor sit amet consectetur <button class="btn"> More
+                  </button></p>
+                   
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="./assets/img/s11.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <p>Lorem ipsum, dolor sit amet consectetur <button class="btn"> More
+                  </button></p>
+                  
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Diet">
+              <div class="portfolio-content h-100">
+                <img src="./assets/img/s5.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <p>Lorem ipsum, dolor sit amet consectetur <button class="btn"> More
+                  </button></p>
+                 
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="./assets/img/s8.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <p>Lorem ipsum, dolor sit amet consectetur <button class="btn"> More
+                  </button></p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="./assets/img/s9.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <p>Lorem ipsum, dolor sit amet consectetur <button class="btn"> More
+                  </button></p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form id="contact-form" method="post" action="https://script.google.com/macros/s/AKfycbzuHoxibc6qSfSzJQi-fqi2bnRFR_bAkARH2sY-wnCgK7AqSxEdtbQ9eskdN37uL1YMUw/exec" name="contact-form">
+              <div class="newsletter-form">
+                <input type="email" name="email" id="email" required placeholder="Enter your email">
+                <input type="submit" value="Subscribe">
+              </div>
+              <div class="loading" style="display:none;">Loading...</div>
+              <div class="error-message" style="display:none; color: red;"></div>
+              <div class="sent-message" style="display:none; color: green;">Your subscription request has been sent. Thank you!</div>
+            </form>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <div>
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="./assets/img/logo.png" alt="Logo" style="max-width: 30%; height: auto; background-color: white;padding: 8px; border-radius: 7px;">
+            </a>
+          </div>
+          <div class="footer-contact pt-3">
+            <h5>Our Branches</h5>
+            <ul>
+              <li>
+                <div>
+                  <p>101 - AL KIFAF COMMERCIAL BUILDING, NEAR</p>
+                  <p>BURJUMAN METRO EXIT 2, AL KARAMA, DUBAI - UAE</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <p>JAM MARINA RESIDENCE SHOP B-01 - 04 MARINA</p>
+                </div>
+              </li>
+            </ul>
+            <p class="mt-3"><strong>Phone:</strong> <span>+971 56 369 9393</span></p>
+            <p><strong>Email:</strong> <span>business@bodyperfect.ae</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">weight-loss</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">STEM CELLS</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">ABB DIET PROGRAM</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">DNA</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Follow us on social media to stay updated with the latest tips, offers, and news!</p>
+          <div class="social-links d-flex">
+            <a href="https://www.youtube.com/@drjaisons"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/jaison.paulson/"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/drjaisons/"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Body Perfect</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bodyperfect.ae/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bodyperfect.ae/">Drjaisons</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+  var dropdowns = document.querySelectorAll('.dropdown-toggle');
+  
+  dropdowns.forEach(function (dropdown) {
+    dropdown.addEventListener('click', function () {
+      var dropdownMenu = this.nextElementSibling;
+
+      // Toggle dropdown visibility
+      dropdownMenu.classList.toggle('show');
+    });
+  });
+});
+document.getElementById('contact-form').addEventListener('submit', async function (e) {
+    e.preventDefault(); // Prevent default form submission
+
+    const form = e.target;
+    const formData = new FormData(form);
+    const loadingMessage = document.querySelector('.loading');
+    const successMessage = document.querySelector('.sent-message');
+    const errorMessage = document.querySelector('.error-message');
+
+    // Show the loading message
+    loadingMessage.style.display = 'block';
+    successMessage.style.display = 'none';
+    errorMessage.style.display = 'none';
+
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        redirect: 'follow'
+      });
+
+      if (response.ok) {
+        loadingMessage.style.display = 'none';
+        successMessage.style.display = 'block'; // Show success message
+      } else {
+        throw new Error('Form submission failed.');
+      }
+    } catch (error) {
+      loadingMessage.style.display = 'none';
+      errorMessage.style.display = 'block'; // Show error message
+      errorMessage.textContent = 'There was an issue with your submission. Please try again.';
+    }
+  });
+  </script>
+
+</body>
+
+</html>
